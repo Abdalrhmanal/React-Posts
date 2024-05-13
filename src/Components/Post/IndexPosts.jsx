@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 function HomePage() {
   const [posts, setPosts] = useState([]);
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
